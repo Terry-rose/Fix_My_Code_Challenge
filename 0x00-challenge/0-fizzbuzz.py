@@ -14,7 +14,7 @@ def fizzbuzz(n):
             print("Buzz", end=' ')
         else:
             print(i, end=' ')
-    print()
+    print()  # Add a newline after printing all numbers
 
 if __name__ == "__main__":
     import sys
