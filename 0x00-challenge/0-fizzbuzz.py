@@ -14,7 +14,8 @@ def fizzbuzz(n):
             print("Buzz", end=' ')
         else:
             print(i, end=' ')
-    print()  # Add a newline after printing all numbers
+    # Remove the trailing space here
+    print()
 
 if __name__ == "__main__":
     import sys
